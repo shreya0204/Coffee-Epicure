@@ -1,0 +1,93 @@
+.container {
+  margin-bottom: 6rem;
+}
+
+.title {
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.title2 {
+  display: block;
+  color: var(--text-dark-pink);
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-blue);
+}
+
+.button {
+  cursor: pointer;
+  outline: 0;
+  border: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: var(--text-dark-pink);
+  color: var(--text-light-white);
+}
+
+.button:hover {
+  background-color: #c72751;
+  transition: 0.2s ease;
+}
+
+/* small device */
+@media (min-width: 640px) {
+  .title {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .subtitle {
+    margin-top: 1.25rem;
+    max-width: 36rem;
+  }
+  .button {
+    display: flex;
+    margin-top: 2rem;
+  }
+}
+
+/* medium device */
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  .subtitle {
+    margin-top: 1.25rem;
+  }
+  .button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* large device */
+@media (min-width: 1024px) {
+  .container {
+    text-align: left;
+  }
+  .title2 {
+    display: inline;
+  }
+}
+
+/* extra large device */
+@media (min-width: 1280px) {
+  .title2 {
+    display: inline;
+  }
+}

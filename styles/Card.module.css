@@ -1,0 +1,48 @@
+.cardLink{
+    margin: auto;
+    border-color: var(--text-light-white);
+    border-radius: 0.75rem;
+    box-shadow: 0 0 transparent, 0 0 #000, 0 0 transparent, 0 0 #000, 0 0 transparent;
+}
+
+.container{
+    border-radius: 0.75rem;
+    padding: 0.25rem 1rem 1.25rem 1rem;
+
+    backdrop-filter: blur(10px);
+}
+
+.cardHeaderWrapper{
+    width: fit-content;
+}
+
+.cardHeader{
+    color: var(--text-dark-blue);
+    font-size: 2rem;
+}
+
+.cardHeader::after{
+    content: "➡️";
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.cardImageWrapper{
+    color: var(--text-light-white);
+}
+
+.cardImage{
+    border-radius: 0.75rem;
+}
+
+@media (min-width : 1024px){
+    .cardHeader{
+        width: 16rem;
+    }
+}
+
+@media (min-width : 768px){
+    .cardHeader{
+        width: 16rem;
+    }
+}

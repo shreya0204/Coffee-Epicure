@@ -2,8 +2,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "Yellow Ginger" -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../public/static/Background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #1f213d;
 }
 
 a {
@@ -13,4 +18,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.glass{
+  background: hsla(0, 0%, 100%, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+:root {
+  --text-dark-blue: #161853;
+  --text-blue: #292c6d;
+  --text-light-white: #faedf0;
+  --text-dark-pink: #ec255a;
 }

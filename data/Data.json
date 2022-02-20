@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 0,
+        "name" : "CCD",
+        "imgUrl" : "https://images.unsplash.com/photo-1521767703556-c4c44fd6e280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "websiteUrl" : "https://www.cafecoffeeday.com/",
+        "addresss" : "Sadar Bazar",
+        "neighbourhood" : "At king"
+    },
+    {
+        "id" : 1,
+        "name" : "Star Bucks",
+        "imgUrl" : "https://images.unsplash.com/photo-1615713170963-2595d2c721bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "websiteUrl" : "https://www.starbucks.in/",
+        "addresss" : "Sadar Bazar",
+        "neighbourhood" : "A Star"
+    }
+]
